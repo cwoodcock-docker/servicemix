@@ -16,6 +16,7 @@ docker run -d \
   -p 8101:8101 \
   -p 44444:44444 \
   -p 61616:61616 \
+  -p 8181:8181 \
   -v ~/smix/deploy:/deploy \
   -v ~/smix/data:/data \
   cwoodcock/servicemix

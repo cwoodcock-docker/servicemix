@@ -18,7 +18,7 @@ RUN \
 VOLUME ["/opt/servicemix/deploy"]
 VOLUME ["/opt/servicemix/data"]
 
-EXPOSE 1099 5505 8101 44444 61616
+EXPOSE 1099 5505 8101 44444 61616 8181
 
 USER servicemix
 ENTRYPOINT ["/opt/servicemix/bin/servicemix"]
