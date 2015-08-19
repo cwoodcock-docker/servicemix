@@ -1,8 +1,8 @@
 FROM java:7u79-jdk
 MAINTAINER Colin Woodcock "colin.woodcock@gmail.com"
+ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
 
 ENV SMIX_VERSION 6.0.0
-ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
 
 # Fetch
 RUN wget http://mirrors.ukfast.co.uk/sites/ftp.apache.org/servicemix/servicemix-6/${SMIX_VERSION}/apache-servicemix-${SMIX_VERSION}.zip;
